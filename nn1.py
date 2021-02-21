@@ -14,3 +14,7 @@ for neuron_weights,neuron_bias in zip(weights,biases):
 	layer_outputs.append(neuron_output)
 
 print(layer_outputs)
+
+import numpy as np
+output=np.dot(weights,inputs)+biases
+print(output)
